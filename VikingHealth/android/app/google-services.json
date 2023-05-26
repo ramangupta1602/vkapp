@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "76867931081",
+    "firebase_url": "https://viking-health.firebaseio.com",
+    "project_id": "viking-health",
+    "storage_bucket": "viking-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76867931081:android:3b7e872a4f25b5cd133618",
+        "android_client_info": {
+          "package_name": "com.vikinghealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76867931081-2627bbpblg7ndv3tuludsqfsa5hp02s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfqrOoFthF9RSS13OaZqfO8e5pmdvlSnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76867931081-2627bbpblg7ndv3tuludsqfsa5hp02s3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "76867931081-b926oqljbs1rh5cmsv8j6keatdb00v5r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vikingHealth.reboot",
+                "app_store_id": "1456404647"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

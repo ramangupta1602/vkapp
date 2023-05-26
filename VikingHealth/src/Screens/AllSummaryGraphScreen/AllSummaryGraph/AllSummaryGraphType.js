@@ -1,0 +1,6 @@
+export const GraphType = {
+  WEIGHT_GRAPH: 1,
+  BODY_MEASUREMENT_GRAPH: 2,
+  WATER_INTAKE_GRAPH: 3,
+  DAY_PERFORMANCE_GRAPH: 4
+};

@@ -1,0 +1,42 @@
+{
+  "1": {
+    "startTime": 0,
+    "duration": 1,
+    "name": "neck"
+  },
+  "2": {
+    "startTime": 1,
+    "duration": 1,
+    "name": "shoulder"
+  },
+  "3": {
+    "startTime": 2,
+    "duration": 1,
+    "name": "chest"
+  },
+  "4": {
+    "startTime": 3,
+    "duration": 1,
+    "name": "arm"
+  },
+  "5": {
+    "startTime": 4,
+    "duration": 1,
+    "name": "waist"
+  },
+  "6": {
+    "startTime": 5,
+    "duration": 1,
+    "name": "hips"
+  },
+  "7": {
+    "startTime": 6,
+    "duration": 1,
+    "name": "thighs"
+  },
+  "8": {
+    "startTime": 7,
+    "duration": 1,
+    "name": "calf"
+  }
+}

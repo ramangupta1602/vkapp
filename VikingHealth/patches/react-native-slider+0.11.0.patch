@@ -1,0 +1,16 @@
+diff --git a/node_modules/react-native-slider/src/Slider.js b/node_modules/react-native-slider/src/Slider.js
+index 37deee5..bbb799e 100644
+--- a/node_modules/react-native-slider/src/Slider.js
++++ b/node_modules/react-native-slider/src/Slider.js
+@@ -10,9 +10,9 @@ import {
+   StyleSheet,
+   PanResponder,
+   View,
+-  Easing,
+-  ViewPropTypes
++  Easing
+ } from "react-native";
++import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+ 
+ import PropTypes from 'prop-types';
+ 

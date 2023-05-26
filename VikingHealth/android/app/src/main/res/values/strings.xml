@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">Viking\nHealth</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">etazICcvLk57LKInGq5bxFnxqkVz1iq2Bnyib</string>
+</resources>

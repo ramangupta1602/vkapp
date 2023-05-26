@@ -1,0 +1,75 @@
+diff --git a/node_modules/rn-viewpager/viewpager/IndicatorViewPager.js b/node_modules/rn-viewpager/viewpager/IndicatorViewPager.js
+index ad300fb..50a12ec 100644
+--- a/node_modules/rn-viewpager/viewpager/IndicatorViewPager.js
++++ b/node_modules/rn-viewpager/viewpager/IndicatorViewPager.js
+@@ -6,8 +6,9 @@
+ 
+ import React, { Component } from 'react'
+ import PropTypes from 'prop-types'
+-import { StyleSheet, View, ViewPropTypes } from 'react-native'
++import { StyleSheet, View } from 'react-native'
+ import ViewPager from './ViewPager'
++import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+ 
+ const VIEWPAGER_REF = 'viewPager'
+ const INDICATOR_REF = 'indicator'
+diff --git a/node_modules/rn-viewpager/viewpager/ViewPager.js b/node_modules/rn-viewpager/viewpager/ViewPager.js
+index 41f8f1b..6d5df8d 100644
+--- a/node_modules/rn-viewpager/viewpager/ViewPager.js
++++ b/node_modules/rn-viewpager/viewpager/ViewPager.js
+@@ -4,7 +4,9 @@
+ 
+ 'use strict'
+ 
+-import { PanResponder, Platform, ScrollView, StyleSheet, View, ViewPagerAndroid } from 'react-native'
++import { PanResponder, Platform, ScrollView, StyleSheet, View } from 'react-native'
++import ViewPagerAndroid from '@react-native-community/viewpager'
++
+ import React, { Component } from 'react'
+ 
+ const SCROLLVIEW_REF = 'scrollView'
+diff --git a/node_modules/rn-viewpager/viewpager/indicator/PagerDotIndicator.js b/node_modules/rn-viewpager/viewpager/indicator/PagerDotIndicator.js
+index 8689354..1a06c2d 100644
+--- a/node_modules/rn-viewpager/viewpager/indicator/PagerDotIndicator.js
++++ b/node_modules/rn-viewpager/viewpager/indicator/PagerDotIndicator.js
+@@ -5,8 +5,9 @@
+ 'use strict'
+ import React, { Component } from 'react'
+ import PropTypes from 'prop-types'
+-import { StyleSheet, View, ViewPropTypes } from 'react-native'
++import { StyleSheet, View } from 'react-native'
+ import IndicatorViewPager from '../IndicatorViewPager'
++import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+ 
+ const DEFAULT_DOT_RADIUS = 6
+ export default class PagerDotIndicator extends Component {
+diff --git a/node_modules/rn-viewpager/viewpager/indicator/PagerTabIndicator.js b/node_modules/rn-viewpager/viewpager/indicator/PagerTabIndicator.js
+index d127800..084b1a3 100644
+--- a/node_modules/rn-viewpager/viewpager/indicator/PagerTabIndicator.js
++++ b/node_modules/rn-viewpager/viewpager/indicator/PagerTabIndicator.js
+@@ -5,8 +5,9 @@
+ 'use strict'
+ import React, { Component } from 'react'
+ import PropTypes from 'prop-types'
+-import { StyleSheet, View, ViewPropTypes, Image, Text, TouchableOpacity } from 'react-native'
++import { StyleSheet, View, Image, Text, TouchableOpacity } from 'react-native'
+ import IndicatorViewPager from '../IndicatorViewPager'
++import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+ 
+ export default class PagerTabIndicator extends Component {
+     static propTypes = {
+diff --git a/node_modules/rn-viewpager/viewpager/indicator/PagerTitleIndicator.js b/node_modules/rn-viewpager/viewpager/indicator/PagerTitleIndicator.js
+index acd94ce..8953737 100644
+--- a/node_modules/rn-viewpager/viewpager/indicator/PagerTitleIndicator.js
++++ b/node_modules/rn-viewpager/viewpager/indicator/PagerTitleIndicator.js
+@@ -6,8 +6,9 @@
+ 
+ import React, { Component } from 'react'
+ import PropTypes from 'prop-types'
+-import { StyleSheet, View, ViewPropTypes, Text, TouchableOpacity,ScrollView ,Dimensions} from 'react-native'
++import { StyleSheet, View, Text, TouchableOpacity,ScrollView ,Dimensions} from 'react-native'
+ import IndicatorViewPager from '../IndicatorViewPager'
++import { ViewPropTypes } from 'deprecated-react-native-prop-types'
+ 
+ const itemLayoutInfo = [];
+ const screenWidth = Dimensions.get('window').width;

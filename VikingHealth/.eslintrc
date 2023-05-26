@@ -1,0 +1,15 @@
+{
+  "extends": "rallycoding",
+  "rules": {
+    "arrow-body-style": 0,
+    "react/jsx-equals-spacing": 0,
+    "object-curly-spacing": 0,
+    "react/jsx-curly-spacing": 0,
+    "no-underscore-dangle": 0,
+    "semi": 0,
+    "block-spacing": 0,
+    "max-len": 0,
+    "no-useless-escape": 0,
+    "quotes": ["ignore", "double"]
+  }
+}
